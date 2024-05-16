@@ -3,9 +3,9 @@ import {structureTool} from 'sanity/structure'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemaTypes'
 import { vercelDeployTool } from 'sanity-plugin-vercel-deploy'
+import { MyLogo } from './components/Logo'
 
 import "./styling/styling.css"
-
 
 export default defineConfig({
   name: 'default',
@@ -13,7 +13,7 @@ export default defineConfig({
 
   projectId: process.env.SANITY_STUDIO_PROJECT_ID as string,
   dataset: 'production',
-
+  icon: MyLogo as any,
   plugins: [
     structureTool(),
     visionTool(),
