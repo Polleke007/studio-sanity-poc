@@ -6,11 +6,12 @@ import { vercelDeployTool } from 'sanity-plugin-vercel-deploy'
 
 import "./styling/styling.css"
 
+
 export default defineConfig({
   name: 'default',
   title: 'Sanity POC',
 
-  projectId: process.env.PROJECT_ID as string,
+  projectId: process.env.SANITY_STUDIO_PROJECT_ID as string,
   dataset: 'production',
 
   plugins: [
