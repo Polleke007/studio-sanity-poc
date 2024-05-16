@@ -4,5 +4,13 @@ export default defineCliConfig({
   api: {
     projectId: process.env.SANITY_STUDIO_PROJECT_ID,
     dataset: 'production'
-  }
+  },
+  graphql: [
+    {
+      playground: true,
+      tag: 'experiment',
+      workspace: 'dev',
+      id: 'schema-experiment',
+    },
+  ]
 })

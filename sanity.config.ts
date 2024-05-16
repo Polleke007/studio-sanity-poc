@@ -8,8 +8,8 @@ import { MyLogo } from './components/Logo'
 import "./styling/styling.css"
 
 export default defineConfig({
-  name: 'default',
-  title: 'Sanity POC',
+  name: 'dev',
+  title: 'dev',
 
   projectId: process.env.SANITY_STUDIO_PROJECT_ID as string,
   dataset: 'production',
