@@ -24,6 +24,16 @@ export const pageInformation = defineType({
       name: 'description',
       type: 'string',
       title: 'Description'
+    },
+    {
+      name: 'noIndex',
+      type: 'boolean',
+      title: 'No Index'
+    },
+    {
+      name: 'noFollow',
+      type: 'boolean',
+      title: 'No Follow'
     }
   ]
 })
