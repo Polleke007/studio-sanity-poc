@@ -3,7 +3,7 @@ import {defineField, defineType} from 'sanity'
 export const expertAdvice = defineType({
   name: 'expertAdvice',
   title: 'Expert Advice',
-  type: 'object',
+  type: 'document',
   fields: [
     defineField({
       name: 'title',

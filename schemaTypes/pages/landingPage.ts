@@ -35,5 +35,17 @@ export const landingPage = defineType({
       title: 'Two Grid',
       type: 'twoGrid'
     }
-  ]
+  ],
+  preview: {
+    select: {
+      title: '',
+      subtitle: ''
+    },
+    prepare(selection) {
+      return {
+        title: 'Landing Page',
+        subtitle: `Landing page for the initial view of the website`
+      }
+    }
+  }
 })
