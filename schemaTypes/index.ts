@@ -10,6 +10,10 @@ import {expertAdvice} from './components/expertAdvice'
 import {joinUs} from './components/joinUs'
 import {twoGrid} from './components/twoGrid'
 import {expertAdvicesTitles} from './utils/expertAdvicesTitles'
+import {header} from './header/header'
+import {navigationItem} from './header/navigation-item'
+import {item} from './header/item'
+import {languageItem} from './header/language'
 
 export const schemaTypes = [
   landingPage,
@@ -24,4 +28,8 @@ export const schemaTypes = [
   expertAdvice,
   joinUs,
   twoGrid,
+  header,
+  navigationItem,
+  item,
+  languageItem
 ]

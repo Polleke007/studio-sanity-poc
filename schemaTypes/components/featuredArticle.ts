@@ -2,7 +2,7 @@ import { defineType} from 'sanity'
 
 export const featuredArticle = defineType(    {
   name: 'featuredArticle',
-  type: 'document',
+  type: 'object',
   title: 'Featured Article',
   fields: [
     {

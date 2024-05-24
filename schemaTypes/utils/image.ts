@@ -3,7 +3,7 @@ import {defineField, defineType} from 'sanity'
 export const image = defineType({
   name: 'clientImage',
   title: 'Image',
-  type: 'document',
+  type: 'object',
   fields: [
     defineField({
       name: 'image',
