@@ -33,6 +33,11 @@ export const expertAdvice = defineType({
         type: 'reference',
         to: [{type: 'expertAdvicesTitles'}]
       }]
-    })
+    }),
+    defineField({
+      name: 'isLeft',
+      type: 'boolean',
+      title: 'Set this component to the left'
+    }),
   ]
 })
