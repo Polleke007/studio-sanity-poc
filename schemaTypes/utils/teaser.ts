@@ -3,7 +3,7 @@ import {defineField, defineType} from 'sanity'
 export const teaser = defineType({
   name: 'teaser',
   title: 'Teaser',
-  type: 'object',
+  type: 'document',
   fields: [
     defineField({
       name: 'title',

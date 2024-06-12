@@ -9,13 +9,13 @@ export const twoGrid = defineType({
       name: 'expertAdvice',
       type: 'reference',
       title: 'Expert Advice',
-      to: [{type: 'featuredArticle'}, {type: 'expertAdvice'}]
+      to: [{type: 'featuredArticle'}, {type: 'expertAdvice'}, {type: 'clientImage'}, {type: 'teaser'}, {type: 'heroBanner'}]
     },
     {
       name: 'featuredArticle',
       type: 'reference',
       title: 'Featured Article',
-      to: [{type: 'featuredArticle'}, {type: 'expertAdvice'}]
+      to: [{type: 'featuredArticle'}, {type: 'expertAdvice'}, {type: 'clientImage'}, {type: 'teaser'}, {type: 'heroBanner'}]
     }
   ]
 })

@@ -2,7 +2,7 @@ import { defineType} from 'sanity'
 
 export const heroBanner = defineType({
   name: 'heroBanner',
-  type: 'object',
+  type: 'document',
   title: 'Hero Banner',
   fields: [
     {

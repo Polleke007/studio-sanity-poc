@@ -38,14 +38,8 @@ export const landingPage = defineType({
   ],
   preview: {
     select: {
-      title: '',
-      subtitle: ''
-    },
-    prepare(selection) {
-      return {
-        title: 'Landing Page',
-        subtitle: `Landing page for the initial view of the website`
-      }
+      title: 'pageInformation.pageName',
+      subtitle: 'pageInformation.description'
     }
   }
 })
