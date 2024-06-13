@@ -2,7 +2,7 @@ import { defineType} from 'sanity'
 
 export const referencedClients = defineType({
   name: 'referencedClients',
-  type: 'object',
+  type: 'document',
   title: 'Referenced Clients',
   fields: [
     {

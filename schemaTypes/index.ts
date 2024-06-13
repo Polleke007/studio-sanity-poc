@@ -14,6 +14,8 @@ import {header} from './header/header'
 import {navigationItem} from './header/navigation-item'
 import {item} from './header/item'
 import {languageItem} from './header/language'
+import {landingPageV2} from './pages/landingPageV2'
+import {pageSection} from './utils/pageSection'
 
 export const schemaTypes = [
   landingPage,
@@ -31,5 +33,7 @@ export const schemaTypes = [
   header,
   navigationItem,
   item,
-  languageItem
+  languageItem,
+  landingPageV2,
+  pageSection
 ]

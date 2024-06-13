@@ -2,7 +2,7 @@ import { defineType} from 'sanity'
 
 export const twoGrid = defineType({
   name: 'twoGrid',
-  type: 'object',
+  type: 'document',
   title: '2 Grid',
   fields: [
     {

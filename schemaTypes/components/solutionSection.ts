@@ -2,7 +2,7 @@ import { defineType} from 'sanity'
 
 export const solutionSection = defineType({
   name: 'solutionSection',
-  type: 'object',
+  type: 'document',
   title: 'Solution Section',
   fields: [
     {

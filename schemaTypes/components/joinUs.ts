@@ -2,7 +2,7 @@ import { defineType} from 'sanity'
 
 export const joinUs = defineType({
   name: 'joinUs',
-  type: 'object',
+  type: 'document',
   title: 'Join Us',
   fields: [
     {
